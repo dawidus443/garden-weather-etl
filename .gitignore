@@ -76,8 +76,9 @@ ipython_config.py
 # celery beat schedule file
 celerybeat-schedule
 
-# dotenv environment variables file (do NOT ignore .env!)
-# .env <-- NOT ignored
+# dotenv environment variables file
+.env
+
 
 # virtualenv
 .venv/
