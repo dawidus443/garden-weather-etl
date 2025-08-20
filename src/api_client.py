@@ -2,6 +2,7 @@
 
 import requests
 from datetime import datetime
+from pyspark.sql import SparkSession
 
 
 def fetch_weather_data(latitude, longitude, start_date=None, end_date=None):
